@@ -15,8 +15,8 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        Gestora gestora = new Gestora();
-    MenuPrincipal.mostrarMenuPrincipal(gestora);
+       Gestora gestora = Gestora.getInstance();
+       MenuPrincipal.mostrarMenuPrincipal(gestora);
 
     }
 }

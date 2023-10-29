@@ -27,7 +27,7 @@ public class GestoraTest { //En esta clase testeamos que cada método llame a su
         gestoraMock = mock(Gestora.class);
         gestoraComprasMock = mock(GestoraCompras.class);
         gestoraVisualizacionMock = mock(GestoraVisualizacion.class);
-        registroDeComprasTest = new RegistroDeCompras();
+        registroDeComprasTest = mock(RegistroDeCompras.class);
         lugarCompraTest = new LugarCompra() {
         };
         compraTest = new Compra(lugarCompraTest);

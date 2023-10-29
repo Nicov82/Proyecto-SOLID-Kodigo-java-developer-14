@@ -1,5 +1,7 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÓÙ†û8½ÜŞ÷±1
-G	java:S106"+Replace this use of System.out by a logger.(Ñ¦¯8ÄÜŞ÷±1
-G	java:S106"+Replace this use of System.out by a logger.(õãÈÏ8ÄÜŞ÷±1
-L	java:S106"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8ÅÜŞ÷±1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÓÙ†û8ù©Á·1
+µ
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(¬ò·>8èÁ·1
+G	java:S106"+Replace this use of System.out by a logger.(Ñ¦¯8…ªÁ·1
+G	java:S106"+Replace this use of System.out by a logger.(õãÈÏ8†ªÁ·1
+L	java:S106$"+Replace this use of System.out by a logger.(ŞÒ—üÿÿÿÿ8‡ªÁ·1

@@ -101,8 +101,6 @@ Ssrc/test/java/com/proyectoSOLID/logica/herramientasParaGestora/CalculadoraTest.
 Ssrc/test/java/com/proyectoSOLID/logica/clasesGestoras/GestoraVisualizacionTest.java,c\a\ca14a8b7cfb81ce79cf97f8e60bc2610ebb57e4e
 }
 Msrc/test/java/com/proyectoSOLID/logica/clasesGestoras/GestoraComprasTest.java,1\e\1e37afb4d8f365eae977c4a5eeb4da53a230b9f0
-k
-;src/test/java/com/proyectoSOLID/menu/MenuPrincipalTest.java,8\c\8c3190b3ad66771182ed0f9d71286ec5ee8e046f
 w
 Gsrc/test/java/com/proyectoSOLID/logica/clasesGestoras/package-info.java,2\8\2873d1b2d758986151e283cc68120fffca917a99
 r
@@ -111,3 +109,5 @@ v
 Fsrc/test/java/com/proyectoSOLID/logica/lugaresCompra/package-info.java,a\a\aa63050bcecab66a9e7fbc795affe1e2c72bdb52
 v
 Fsrc/test/java/com/proyectoSOLID/logica/clasesGestoras/GestoraTest.java,7\e\7e1437eb8f272ca2a48e29a8dd7d1395a91cdc78
+‚
+Rsrc/main/java/com/proyectoSOLID/logica/clases/entidades/RegistroLugaresCompra.java,a\8\a865c92adb909a4715c85d5bc480e2a0f04f79cb

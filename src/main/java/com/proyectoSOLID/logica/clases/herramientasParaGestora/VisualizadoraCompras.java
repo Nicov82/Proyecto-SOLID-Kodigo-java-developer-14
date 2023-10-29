@@ -10,6 +10,16 @@ import java.util.List;
 //Clase que se ocupa de implementaciones relativas a la visualización de datos.
 public class VisualizadoraCompras implements DisplayInfoCompra, DisplayInfoListaCompras {
 
+    private static VisualizadoraCompras instancia;
+
+    private VisualizadoraCompras(){
+    }
+    public static VisualizadoraCompras getInstance(){
+        if (instancia == null) {
+            instancia = new VisualizadoraCompras();
+        }
+        return instancia;
+    }
     @Override
     public void verInfoCompra(Compra compra) {
         System.out.println(compra);

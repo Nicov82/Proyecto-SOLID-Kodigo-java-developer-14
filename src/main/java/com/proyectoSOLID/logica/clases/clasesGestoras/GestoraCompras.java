@@ -12,6 +12,20 @@ import com.proyectoSOLID.logica.interfaces.lugaresCompra.CalculoCostoCompra;
 import java.util.List;
 //Clase que centraliza los métodos de gestión de compras de la aplicación.
 public class GestoraCompras implements NuevaCompra, AltaProducto, CalculoCostoCompra, CalculoPrecioTotalCompras {
+
+    private static GestoraCompras instancia;
+    private Calculadora calculadora = Calculadora.getInstance();
+
+    private GestoraCompras(){
+    }
+
+    public static GestoraCompras getInstance() {
+        if (instancia == null) {
+            instancia = new GestoraCompras();
+        }
+        return instancia;
+    }
+
     public Calculadora getCalculadora() {
         return calculadora;
     }
@@ -19,9 +33,6 @@ public class GestoraCompras implements NuevaCompra, AltaProducto, CalculoCostoCo
     public void setCalculadora(Calculadora calculadora) {
         this.calculadora = calculadora;
     }
-
-    private Calculadora calculadora = new Calculadora();
-
     @Override
     public void iniciarCompra(List listaCompras, LugarCompra lugarCompra) {
         Compra nuevaCompra = new Compra(lugarCompra);

@@ -104,12 +104,12 @@ public class MenuPrincipal {
 
                 switch (opcion) {
                     case 1:
-                        gestora.iniciarCompra(gestora.getListaLugaresCompra().get(1));
+                        gestora.iniciarCompra(gestora.getRegistroLugaresCompra().getListaLugaresCompra().get(1));
                         menuAgregarProducto(gestora);
                         System.out.println(" ");
                         break;
                     case 2:
-                        gestora.iniciarCompra(gestora.getListaLugaresCompra().get(0));
+                        gestora.iniciarCompra(gestora.getRegistroLugaresCompra().getListaLugaresCompra().get(0));
                         menuAgregarProducto(gestora);
                         System.out.println(" ");
                         break;
@@ -140,12 +140,12 @@ public class MenuPrincipal {
 
                 switch (opcion) {
                     case 1:
-                        gestora.iniciarCompra(gestora.getListaLugaresCompra().get(3));
+                        gestora.iniciarCompra(gestora.getRegistroLugaresCompra().getListaLugaresCompra().get(3));
                         menuAgregarProducto(gestora);
                         System.out.println(" ");
                         break;
                     case 2:
-                        gestora.iniciarCompra(gestora.getListaLugaresCompra().get(2));
+                        gestora.iniciarCompra(gestora.getRegistroLugaresCompra().getListaLugaresCompra().get(2));
                         menuAgregarProducto(gestora);
                         System.out.println(" ");
                         break;
